@@ -481,6 +481,10 @@ ai_analysis:
   # 提示词配置文件路径（相对于 config 目录）
   prompt_file: "ai_analysis_prompt.txt"
 
+ai_translation:
+  enabled: true          # 开启翻译
+  language: "Chinese"    # 翻译成什么语言 (Chinese, English, Japanese...)
+
   # AI 分析模式（独立于推送报告模式）
   # 可选值:
   #   - "follow_report": 跟随 report.mode 的设置（默认）
